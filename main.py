@@ -32,7 +32,7 @@ def main() -> None:
     tileset = tcod.tileset.load_tilesheet(
         "dejavu10x10_gs_tc.png", 32, 8, tcod.tileset.CHARMAP_TCOD
     )
-    tcod.tileset.procedural_block_elements(tileset=tileset) 
+    tcod.tileset.procedural_block_elements(tileset=tileset)
 
     globalState.console = tcod.console.Console(screen_width, screen_height)
 
